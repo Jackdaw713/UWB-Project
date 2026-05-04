@@ -1,0 +1,6 @@
+west:
+  command: C:\ncs\toolchains\936afb6332\opt\bin\Scripts\west build --build-dir c:/ncs/ble_testing/peripheral_nus_test/build
+    c:/ncs/ble_testing/peripheral_nus_test --pristine --board promicro_nrf52840/nrf52840
+    --no-sysbuild -- -DDEBUG_THREAD_INFO=On -DCONFIG_DEBUG_THREAD_INFO=y
+  topdir: c:\ncs\v3.3.0
+  version: 1.5.0

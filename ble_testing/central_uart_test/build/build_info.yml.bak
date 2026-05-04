@@ -1,0 +1,6 @@
+west:
+  command: C:\ncs\toolchains\936afb6332\opt\bin\Scripts\west build --build-dir c:/ncs/v3.3.0/nrf/samples/bluetooth/central_uart_test/build
+    c:/ncs/v3.3.0/nrf/samples/bluetooth/central_uart_test --pristine --board nrf52840dongle/nrf52840
+    --no-sysbuild -- -DDEBUG_THREAD_INFO=Off
+  topdir: c:\ncs\v3.3.0
+  version: 1.5.0
